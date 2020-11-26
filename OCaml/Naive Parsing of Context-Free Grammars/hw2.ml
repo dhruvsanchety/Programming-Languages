@@ -1,4 +1,3 @@
-File Edit Options Buffers Tools Lisp Help
 type ('nonterminal, 'terminal) parse_tree =
   | Node of 'nonterminal * ('nonterminal, 'terminal) parse_tree list
   | Leaf of 'terminal
