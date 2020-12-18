@@ -7,7 +7,7 @@ import json
 
 servers = { "Hill": 12165, "Jaquez": 12166, "Smith": 12167, "Singleton": 12168, "Campbell": 12169 }
 connections = { "Hill": ["Jaquez", "Smith"], "Jaquez": ["Hill", "Singleton"], "Smith": ["Hill", "Singleton", "Campbell"],  "Singleton": ["Campbell", "Jaquez", "Smith"], "Campbell": ["Singleton", "Smith"] }
-KEY = "AIzaSyB55kTlh_FCqUlLHl5AHQTCQlpdpoWeCvU"
+KEY = ""
 
 class Server:
     def __init__(self, name, ip, port):
